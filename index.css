@@ -7,10 +7,10 @@ body {
 
 main{
     width: 550px;
-    /* height: 550px; */
     margin: auto;
     background: #1c1c1c;
     padding: 100px 0;
+    border-radius: 6px;
 }
 
 .container {
@@ -22,10 +22,8 @@ h1 {
     font-family: "Karla";
     font-size: 40px;
     line-height: 40px;
-    letter-spacing: -2.5%;
     font-weight: 900;
     margin: 0 0 10px 0;
-    /* border: 1px solid red; */
 }
 
 span {
@@ -37,12 +35,9 @@ p {
     margin: 0 0 40px 0;
     width: 372px;
     height: 28px;
-    /* border: 1px solid red; */
 }
 
 button {
-    /* width: 191px;
-    height: 42px; */
     background: #10B981;
     border-style: none;
     color: white;
@@ -70,6 +65,7 @@ button {
     background: #273549;
     border-radius: 6px;
     color: #55f991;
-    line-height: 32px;
+    line-height: 42px;
     font-family: "Inter", sans-serif;
+    text-align: center;
 }
